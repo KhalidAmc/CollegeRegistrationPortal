@@ -74,4 +74,86 @@ http://localhost:8080/college-registration-portal
 
 The current version uses an in-memory repository so the app is easy to demonstrate without external setup. A MySQL schema is included under `database/schema.sql` for future database persistence.
 
+## Screenshots
 
+This section presents the main pages and features of the College Registration Portal.
+
+---
+
+### 1. Home Page
+
+The home page introduces the application and provides navigation to the login and registration pages.
+
+![Home Page](docs/screenshots/home-page.png)
+
+---
+
+### 2. Student Registration Page
+
+The registration page allows new students to create an account by entering their personal information and login credentials.
+
+![Student Registration Page](docs/screenshots/student-registration.png)
+
+---
+
+### 3. Login Page
+
+The login page allows existing students and administrators to access the portal securely.
+
+![Login Page](docs/screenshots/login-page.png)
+
+---
+
+### 4. Student Dashboard
+
+The student dashboard gives students access to available courses, current enrollments, and account-related actions.
+
+![Student Dashboard](docs/screenshots/student-dashboard.png)
+
+---
+
+### 5. Course Catalog
+
+The course catalog displays available courses with details such as course code, title, description, credits, and capacity.
+
+![Course Catalog](docs/screenshots/course-catalog.png)
+
+---
+
+### 6. Course Enrollment
+
+Students can enroll in available courses directly from the course catalog.
+
+![Course Enrollment](docs/screenshots/course-enrollment.png)
+
+---
+
+### 7. My Enrollments Page
+
+This page shows the courses in which the student is currently enrolled and provides the option to drop a course.
+
+![My Enrollments Page](docs/screenshots/my-enrollments.png)
+
+---
+
+### 8. Admin Dashboard
+
+The admin dashboard provides access to course management features for users with administrator privileges.
+
+![Admin Dashboard](docs/screenshots/admin-dashboard.png)
+
+---
+
+### 9. Manage Courses Page
+
+Administrators can add, edit, or manage course information from this page.
+
+![Manage Courses Page](docs/screenshots/manage-courses.png)
+
+---
+
+### 10. Error / Validation Messages
+
+The application displays user-friendly messages when login fails, required fields are missing, or an action cannot be completed.
+
+![Validation Message](docs/screenshots/validation-message.png)
