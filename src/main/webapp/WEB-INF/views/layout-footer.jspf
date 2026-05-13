@@ -1,0 +1,10 @@
+</main>
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <span>College Registration Portal</span>
+    
+    </div>
+</footer>
+<script src="${pageContext.request.contextPath}/assets/js/app.js"></script>
+</body>
+</html>
