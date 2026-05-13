@@ -17,10 +17,16 @@
             <c:choose>
                 <c:when test="${not empty user}">
                     <a href="${pageContext.request.contextPath}/dashboard">Dashboard</a>
-                    <a href="${pageContext.request.contextPath}/courses">Courses</a>
-                    <c:if test="${user.role == 'ADMIN'}">
-                        <a href="${pageContext.request.contextPath}/admin/courses">Admin</a>
-                    </c:if>
+
+                    <c:choose>
+                        <c:when test="${user.role == 'ADMIN'}">
+                            <a href="${pageContext.request.contextPath}/admin/courses">Manage Courses</a>
+                        </c:when>
+
+                        <c:otherwise>
+                            <a href="${pageContext.request.contextPath}/courses">Courses</a>
+                        </c:otherwise>
+                    </c:choose>
                     <form method="post" action="${pageContext.request.contextPath}/logout" class="inline-form">
                         <button class="link-button" type="submit">Logout</button>
                     </form>

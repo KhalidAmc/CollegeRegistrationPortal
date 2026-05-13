@@ -5,7 +5,7 @@
 
             <section class="hero card">
                 <div>
-                    <h1>Manage yourcollege course registration.</h1>
+                    <h1>Manage your college course registration</h1>
                     <p class="hero-text">Students can browse courses, register, drop courses, and track their schedule.
                         Admin users can manage course availability and capacity.</p>
                     <div class="hero-actions">
